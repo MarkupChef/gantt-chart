@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -35,4 +38,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.side-bar {
+  display: flex;
+}
+
+.chart {
+  overflow: auto;
 }
